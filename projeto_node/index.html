@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="id_form" method="post" action="/submit">
+        <p>Nome:</p>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." required>
+
+        <p>Idade:</p>
+        <input type="number" id="idade" name="idade" placeholder="Digite sua idade..." required>
+
+        <p>Sexo:</p>
+        <input type="radio" id="feminino" name="sexo" value="feminino" required>
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="outros" name="sexo" value="outros">
+        <label for="outros">Outros</label>
+
+        <p>Cidade:</p>
+        <select name="cidade" id="cidade" required>
+            <option value="rio-de-janeiro">Rio de Janeiro</option>
+            <option value="manaus">Manaus</option>
+            <option value="sao-paulo">São Paulo</option>
+            <option value="brasilia">Brasília</option>
+            <option value="florianopolis">Florianópolis</option>
+        </select>
+
+        <p>Escolaridade:</p>
+        <input type="radio" name="escolaridade" value="fundamental_incompleto" required> Ensino fundamental incompleto<br>
+        <input type="radio" name="escolaridade" value="fundamental_completo"> Ensino fundamental completo<br>
+        <input type="radio" name="escolaridade" value="medio_completo"> Ensino médio completo<br>
+        <input type="radio" name="escolaridade" value="superior_completo"> Ensino superior completo<br>
+        <input type="radio" name="escolaridade" value="pos_graduacao"> Pós-graduação<br>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <div class="saida"></div>
+</body>
+</html>
