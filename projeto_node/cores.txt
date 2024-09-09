@@ -1,0 +1,18 @@
+cores que eu vou usar:
+
+opcao 1:
+
+.color1 { #b1e6d1 };
+.color2 { #77b1a9 };
+.color3 { #3d7b80 };
+.color4 { #270a33 };
+.color5 { #451a3e };
+
+opcao 2:
+
+.color1 { #4c82c6 };
+.color2 { #669ad4 };
+.color3 { #81b3e3 };
+.color4 { #9bcbf1 };
+.color5 { #b5e3ff };
+
